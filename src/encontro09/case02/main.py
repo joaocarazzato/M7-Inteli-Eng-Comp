@@ -19,7 +19,7 @@ app.add_middleware(
 s3 = boto3.client(
     's3'
 )
-bucket_name = 'meu-bucket-inteli'
+bucket_name = 'bucket-joao-c'
 
 @app.post("/upload/")
 async def upload_file(file: UploadFile):
