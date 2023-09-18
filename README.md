@@ -287,16 +287,39 @@ O objetivo do encontro é realizar o deploy de modelos de Machine Learning em um
 <summary>Encontro 10 - Sistemas de troca de informação/mensageria</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo deste encontro é introduzir o conceito de mensageria e como ela pode ser utilizada para a troca de informações entre sistemas. Ao final do encontro, espera-se que os estudantes consigam compreender quando um sistema de mensageria pode ser implementado para realizar a troca de informações entre sistemas.
+
+Como principais tecnologias que serão utilizadas neste encontro, temos:
+
+- Python: linguagem de programação para implementação dos sistemas de mensageria.
+- RabbitMQ: sistema de mensageria que será utilizado para realizar a troca de informações entre os sistemas.
+- Docker: ferramenta que será utilizada para realizar executar os softwares necessários para implementar a mensageria no sistema.
+- FastAPI: framework que será utilizado para realizar o deploy dos sistemas de mensageria.
+- AWS SQS: serviço de mensageria da AWS que será utilizado para realizar a troca de informações entre os sistemas.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [O que é Mensageria? | #AluraMais](https://www.youtube.com/watch?v=U5h6B7eSiAE)
+- [RabbitMQ (Mensageria Robusta pros seus Softwares) // Dicionário do Programador](https://www.youtube.com/watch?v=_Uo14nxB_iA)
+- [Mensageria. Cada vez mais utilizado e exigido no TI.](https://www.linkedin.com/pulse/mensageria-cada-vez-mais-utilizado-e-exigido-ti-luciano-rocha?originalSubdomain=pt)
+- [RabbitMQ in 100 Seconds](https://www.youtube.com/watch?v=NQ3fZtyXji0)
+- [Live de Python #159 - Celery](https://www.youtube.com/watch?v=ig9hbt-yKkM)
+- [Celery Docs](https://docs.celeryq.dev/en/stable/getting-started/introduction.html)
+- [Vamos aprender Celery?](https://blog.4linux.com.br/vamos-aprender-celery/)
+- [Celery + RabbitMQ + FastAPI + Docker](https://blog.devops.dev/celery-rabbitmq-fastapi-docker-842d2b485d33)
+- [Async Architecture with FastAPI, Celery, and RabbitMQ](https://medium.com/cuddle-ai/async-architecture-with-fastapi-celery-and-rabbitmq-c7d029030377)
+- [Asynchronous Request-Reply pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/async-request-reply)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 10](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Existem outros sistemas de mensageria que podem ser utilizados para trocar informações entre sistemas. Pesquise sobre outros sistemas de mensageria e tente implementar um sistema de mensageria utilizando outra ferramenta.
+- Depois da primeira questão complementar, você deve ter esbarrado no [Kafka](https://kafka.apache.org/intro). AINDA NÃO TENTE IMPLEMENTAR ELE! Primeiro tente fazer a implementação utilizando o [Redis](https://redis.io).
+- Agora sim, tente implementar o sistema de mensageria utilizando o [Kafka](https://kafka.apache.org/intro).
 
 </details>
 
